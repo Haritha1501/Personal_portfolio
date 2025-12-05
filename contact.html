@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact – Haritha M</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="contact">
+  <header class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-dot"></span>
+        <span class="logo-text">HARITHA</span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section reveal">
+      <header class="section-header">
+        <h2>Let’s connect</h2>
+        <p>If you have an idea, a project or just want to talk about tech, feel free to reach out.</p>
+      </header>
+
+      <div class="contact-layout">
+        <div class="contact-details">
+          <p class="contact-label">Email</p>
+          <p><a href="mailto:harithasekar07@gmail.com">harithasekar07@gmail.com</a></p>
+
+          <p class="contact-label">Phone</p>
+          <p>+91 95147 23047</p>
+
+          <p class="contact-label">Location</p>
+          <p>Coimbatore, Tamil Nadu, India</p>
+
+          <p class="contact-label">GitHub</p>
+          <p><a href="https://github.com/haritha1501" target="_blank" rel="noreferrer">
+            github.com/haritha1501</a></p>
+
+          <p class="contact-label">LinkedIn</p>
+          <p><a href="https://www.linkedin.com/in/haritha-meignana-sekaran-344159353"
+                target="_blank" rel="noreferrer">
+            View my LinkedIn profile</a></p>
+        </div>
+
+        <div class="contact-form-wrapper">
+          <p class="contact-text">
+            This form is front-end only right now. You can later connect it to EmailJS using
+            your service, template and public keys.
+          </p>
+
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="name">Your name</label>
+              <input id="name" name="from_name" type="text" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input id="email" name="reply_to" type="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn primary full">
+              Send message
+            </button>
+            <p id="form-status" class="form-status-note"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Haritha M · Portfolio</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
