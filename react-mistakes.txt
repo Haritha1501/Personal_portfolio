@@ -1,0 +1,2 @@
+npm  init -y error : backend la package.json empty ah iruka koodathu
+App.jsx la enna iruko athu thaa frontend o/p la varum
